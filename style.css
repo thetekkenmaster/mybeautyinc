@@ -1,0 +1,380 @@
+html, body {
+	margin: 0px;
+	padding: 0px;
+	overflow-x: hidden;
+}
+
+/* Styles for the header */
+.center {
+	margin: 0 auto;
+	width: 60%;
+}
+   header {
+	background-image: url('013_1.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: 50% -32%;
+	/*background-attachment: fixed;*/
+	height: 100vh;
+}
+.top {
+	display: block;
+    text-align: right;
+    position: relative;
+    right: 12.55%;
+	top: 10px;
+	font-weight: bold;
+}
+.top p {
+	display: inline-block;
+}
+.fa {
+	color: #a60ca2;
+}
+.theme-color {
+	color: #a60ca2;
+	font-weight: bold;
+}
+.top-css {
+	color: #a60ca2;
+	/*padding-left: 35px;*/
+}
+.top-css p {
+	display: inline-block;
+}
+hr {
+    width: 75%;
+    position: relative;
+    left: 12%;
+    margin: 0;
+}
+nav {
+	background-color: #fff;
+	height: 15%;
+}
+nav p {
+	position: relative;
+	left: 78%;
+	top: 5%;
+}
+nav ul {
+    display: block;
+    text-align: center;
+    position: relative;
+    left: 0%;
+}
+nav ul li {
+	display: inline-block;
+    font-weight: bold;
+    font-size: 1.5em;
+    padding-right: 35px;
+}
+nav ul li:first-child {
+	padding-right: 15.4%;
+	font-size: 2.5em;
+	font-family: 'Lobster', cursive;
+}
+nav ul li:first-child a:hover {
+	text-decoration: none;
+	color: #000;
+}
+.beauty {
+	color: #a60ca2;
+}
+nav ul li a {
+	color: #000;
+}
+nav ul li a:hover {
+	color: #999;
+	text-decoration: none;
+}
+nav ul li button {
+	background-color: #a60ca2;
+	border: none;
+	color: #fff;
+}
+nav ul li button a {
+	color: #fff;
+}
+nav ul li button a:hover {
+	text-decoration: none;
+}
+nav ul li button a:focus {
+	text-decoration: none;
+	color: #fff;
+}
+.specializing {
+	display: inline-block;
+	font-family: 'Lobster', cursive;
+	color: #a60ca2;
+	position: relative;
+	top: 145px;
+	left: 6%
+}
+.specializing h1 {
+	font-size: 8em;
+	letter-spacing: 11px;
+	text-shadow: 5px 5px 10px black;
+}
+.specializing ul li {
+	font-size: 4em;
+	list-style-type: none;
+	text-shadow: 2.5px 2.5px 5px black;
+}
+.specializing ul li:first-child {
+	animation-delay: .5s;
+}
+.specializing ul li:nth-child(2) {
+	animation-delay: 1s;
+}
+.specializing ul li:nth-child(3) {
+	animation-delay: 1.5s;
+}
+.specializing ul li:nth-child(4) {
+	animation-delay: 2s;
+}
+.specializing ul li:last-child {
+	animation-delay: 2.5s;
+}
+/* About Us*/
+#about-us h1 {
+	color: #a60ca2;
+	font-family: 'Lobster', cursive;
+	text-align: center;
+	padding-top: 20px;
+}
+#about-us p {
+	text-align: center;
+	color: #000;
+	font-weight: bold;
+	font-size: 1.5em;
+	padding-bottom: 20px;
+}
+.center-about {
+	margin: 0 auto;
+	width: 44%;
+}
+#about-us .row {
+	margin: 0;
+	padding: 0;
+}
+#about-us .row img {
+	display: inline-block;
+	margin: 0 auto;
+}
+#about-us .separate {
+	display: block;
+	margin:30px auto;
+}
+
+/* Our Services */
+#services {
+	background-color: #f1f1f1;
+	padding-bottom: 25px;
+}
+.services-and-prices {
+	width: 70%;
+	margin: 0 auto;
+}
+.services-and-prices h1 {
+	text-align: center;
+	color: #a60ca2;
+	font-family: 'Lobster', cursive;
+}
+.service-h1 {
+	padding-top: 40px;
+}
+.services-and-prices p {
+	padding-bottom: 20px;
+	font-size: 1.5em;
+	font-weight: bold;
+}
+.row-one, .row-two, .row-three {
+	height: 400px;
+	font-weight: bold;
+}
+.shampoo-and-style, .cuts, .color {
+	width: 33%;
+	height: 400px;
+	float: left;
+	background-color: #fff;
+	border: 1px solid black;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+#color p {
+	font-size: 1em;
+}
+.mizani-relaxers, .mizani-butter-blend-relaxers, .styles-and-naturals {
+	width: 33%;
+	height: 400px;
+	float: left;
+	background-color: #fff;
+	border: 1px solid black;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+.treatments, .eyelashes-eyebrows, .weave {
+	width: 33%;
+	height: 400px;
+	float: left;
+	background-color: #fff;
+	border: 1px solid black;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+.row-one, .color, .mizani-butter-blend-relaxers p {
+	font-size: 1em !important;
+}
+/* Our Work*/
+#our-work h1 {
+	color: #a60ca2;
+	font-family: 'Lobster', cursive;
+	text-align: center;
+	padding-top: 20px;
+}
+.row-1, .row-2, .row-3, .row-4 {
+	height: 185px;
+	width: auto;
+}
+.row-4 {
+	margin-bottom: 70px;
+}
+.box {
+	width: 80%;
+	margin: 0 auto;
+}
+.gallery img {
+	/*width: 200px !important;*/
+	height: 185px !important;
+}
+div.gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 180px;
+}
+
+div.gallery:hover {
+    border: 1px solid #777;
+}
+
+div.gallery img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+}
+/* Contact Us */
+#contact-us {
+	height: auto;
+	background-color: #f1f1f1;
+}
+#contact-us h1 {
+	text-align: center;
+	font-family: 'Lobster', cursive;
+	color: #a60ca2;
+	padding-top: 50px;
+}
+.apples {
+	width: 51.3%;
+	height: 100%;
+	margin: 0 auto;
+}
+.apples img {
+	display: block;
+    height: 500px;
+    /*padding-right: 30px;*/
+    margin: 0 auto;
+}
+.apples h4 {
+	text-align: center;
+}
+.apples ul {
+	display: inline-block;
+}
+.apples ul li {
+	list-style-type: none;
+	text-align: justify;
+}
+form {
+	display: block;
+    width: 550px;
+    height: 90%;
+    position: relative;
+    top: 5%;
+    margin: 0 auto 50px auto;
+}
+input {
+	display: block;
+	width: 100%;
+	height: 50px;
+	margin-bottom: 10px;
+}
+textarea {
+	display: block;
+	width: 100%;
+	height: 200px;
+}
+form button {
+	display: block;
+	width: 200px;
+	height: 55px;
+	margin: 20px auto 0 auto;
+	background-color: #a60ca2;
+	border-color: #a60ca2;
+	color: #fff;
+	font-weight: bold;
+}
+/* Footer */
+footer {
+	background-color: #000;
+	height: 300px;
+}
+footer h1 {
+	text-align: center;
+    color: #fff;
+    font-family: 'Lobster', cursive;
+    padding-top: 50px;
+    margin-top: 0;
+}
+footer ul {
+	text-align: center;
+	padding-top: 25px;
+}
+footer ul li {
+	display: inline-block;
+    color: #fff;
+    border-right: 1px solid;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+footer ul li a {
+	color: #fff;
+}
+footer ul li a:hover {
+	color: #ccc;
+	text-decoration: none;
+}
+footer ul li a:focus {
+	text-decoration: none;
+}
+footer ul li:last-child {
+	border: none;
+}
+.footer {
+	height: 50px;
+	background-color: #a60ca2;
+}
+.footer p {
+	width: 100%;
+    color: #fff;
+    text-align: center;
+    padding-top: 15px;
+}
+.accordion, .panel {
+	display: none;
+}

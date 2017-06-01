@@ -1,0 +1,234 @@
+/* -------------Media Queries-------------------------*/
+		html, body {
+		margin: 0px;
+		padding: 0px;
+		overflow-x: hidden;
+		background-color: #000;
+		color: #fff;
+	}
+		.theme-color {
+		color: #a60ca2;
+		font-weight: bold;
+	}
+
+	/* Styles for the header */
+	.center {
+		margin: 0 auto;
+		width: 60%;
+	}
+	header {
+		background-image: url('013_1.jpg');
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-position: 85% 50px;
+		height: 70vh;
+	}
+	header ul {
+		position: relative;
+		padding: 0;
+		text-align: center;
+		top: -30px;
+	}
+	header ul li {
+		display: inline-block;
+		font-weight: bold;
+	}
+	header ul li a {
+		color: #fff;
+	}
+	header ul li:first-child {
+		display: block;
+		font-size: 1.7em;
+		font-family: 'Lobster', cursive;
+		color: #a60ca2;
+	}
+	header ul li:first-child a {
+		color: #a60ca2;
+	}
+	header ul li:nth-child(4) {
+		display: none;
+	}
+	header ul li:last-child {
+		display: none;
+	}
+	header .top-css p {
+		display: none;
+	}
+	.top p {
+		display: none;
+	}
+	nav p {
+		display: none;
+	}
+	 i {
+		display: none;
+	}
+		hr {
+		margin-top: 20px;
+		margin-bottom: 20px;
+		border: 0;
+		border-top: 1px solid #000;
+	}
+	.about-pic {
+		background-image: url('069.JPG');
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-position: 50% -32%;
+		/*background-attachment: fixed;*/
+		height: 100vh;
+	}
+	.top, .specializing {
+		display: block;
+	}
+	.specializing h1 {
+	font-size: 3em;
+	letter-spacing: 11px;
+	text-shadow: 5px 5px 10px black;
+	font-family: 'Lobster', cursive;
+	display: none;
+}
+	.specializing ul {
+		display: none;
+	}
+	#about-us h1 {
+		font-size: 3em;
+		text-align: center;
+		color: #a60ca2;
+		font-family: 'Lobster', cursive;
+	}
+	#about-us p {
+	    text-align: initial;
+		padding-left: 10px;
+		padding-right: 5px;
+		padding-bottom: 30px;
+	}
+	.center {
+		width: 100%;
+	}
+	.center-about img{
+		width: 100%;
+	}
+	
+	.services-and-prices h1 {
+		text-align: center;
+		color: #a60ca2;
+		font-family: 'Lobster', cursive;
+		font-size: 3em;
+	}
+	#services .services-and-prices {
+		width: 100%;
+	}
+	.services-and-prices h1 {
+		font-size: xx-large;
+	}
+	.services-and-prices p {
+		padding-left: 10px;
+		padding-right: 10px;
+	}
+		/* Style the buttons that are used to open and close the accordion panel */
+	button.accordion {
+		background-color: #000;
+		color: #444;
+		cursor: pointer;
+		padding: 0;
+		width: 100%;
+		text-align: left;
+		border: 1px solid #fff;
+		outline: none;
+		transition: 0.4s;
+	}
+
+	/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+	button.accordion.active, button.accordion:hover {
+		background-color: #ddd;
+	}
+
+	/* Style the accordion panel. Note: hidden by default */
+	div.panel {
+		padding: 0 18px;
+		margin: 0;
+		background-color: white;
+		color: black;
+		font-weight: bold;
+		display: none;
+		padding-top: 20px;
+		padding-bottom: 20px;
+	}
+	.shampoo-and-style, .cuts, .color {
+		width: 100%;
+		height: auto;
+		display: none;
+	}
+	.color p {
+		font-size: 1em;
+	}
+	.mizani-relaxers, .mizani-butter-blend-relaxers, .styles-and-naturals {
+		width: 100%;
+		height: auto;
+		display: none;
+	}
+	.treatments, .eyelashes-eyebrows, .weave {
+		width: 100%;
+		height: auto;
+		display: none;
+	}
+	.gallery img {
+		width: 100%;
+		height: auto;
+	}
+	#our-work{
+		display: none;
+	}
+	form {
+		width: 95% !important;
+		margin: 20px auto;
+	}
+	form input, textarea {
+		width: 100%;
+		margin-bottom: 5px;
+	}
+	form textarea {
+		height: 125px;
+	}
+	form button {
+		width: 90px;
+		height: 40px;
+		display: block;
+		margin: 0 auto;
+		background-color: #f1f1f1;
+		color: black;
+		font-weight: bold;
+	}
+	#contact-us h1 {
+		text-align: center;
+		color: #fff;
+		font-family: 'Lobster', cursive;
+	}
+	#contact-us .apples img {
+		width: 100%;
+	}
+	#contact-us .apples h4 {
+		text-align: center;
+	}
+	#contact-us .apples ul {
+		padding: 0;
+	}
+	#contact-us .apples ul li {
+		list-style-type: none;
+	}
+	footer h1 {
+		text-align: center;
+		color: #a60ca2;
+		font-family: 'Lobster', cursive;
+	}
+	footer ul {
+		text-align: center;
+		padding: 0;
+	}
+	footer ul li {
+		display: inline-block;
+	}
+	.footer p {
+		text-align: center;
+	}
+
