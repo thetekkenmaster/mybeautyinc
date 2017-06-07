@@ -895,6 +895,9 @@ form button {
 	color: #fff;
 	font-weight: bold;
 }
+form {
+	display: none;
+}
 /* Footer */
 .desktop-footer {
 	margin-top: 0;
