@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title></title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<link rel="stylesheet" href="style.css">
+</head>
+<body class="contact-page">
+	<div class="fluid-container">
+		<header>
+		<div id="mySidenav" class="sidenav">
+			  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+			  <a href="index.html">Home</a>
+			  <a href="about.html">About</a>
+			  <a href="services.html">Services</a>
+			  <a href="gallery.html">Gallery</a>
+			  <a href="https://www.genbook.com/bookings/slot/reservation/30011866">Appointment</a>
+			  <a href="contact.html">Contact</a>
+			</div>
+			<div class="top-section">
+			<div class="row">
+			<div class="col-xs-3 hamburger"><span style="font-size:30px; border: none; cursor:pointer" onclick="openNav()">&#9776; </span></div>
+			<div class="col-xs-9"><h3>My <span style="font-style: italic; color: purple;">Beauty</span> Inc</h3></div>
+			</div>
+			</div>
+		
+			<h1>Contact Us</h1>
+			<img src="contact--element64.png" alt="">
+		</header>
+		
+		<section>
+			<div id="google-map"></div>
+			<p>We work according to our appointments. General salon hours are:</p>
+			<ul class="hours">
+				<li>Mon &emsp; Closed</li>
+				<li>Tues &emsp; 9am-5:30pm</li>
+				<li>Wed &emsp; 9am-5:30pm</li>
+				<li>Thurs  &emsp; 12pm-5:30pm</li>
+				<li>Fri  &emsp; &emsp;  9am-5:30pm</li>
+				<li>Sat  &emsp; &emsp; 5am-1:30pm</li>
+				<li>Sun  &emsp; &nbsp;  Closed</li>
+			</ul>
+			<p>60 Shiawassee Ave Fairlawn, Ohio 44333<br>
+			Phone: (330)434-8664<br>
+			Email: info@mybeautyinc.com
+			</p>
+		</section>
+		<footer>
+		<div class="bottom-icons">
+			<ul>
+				<li><a href="https://www.facebook.com/Iamtonistylz/" target="_blank"><img src="facebook-circle.png" width="30px" height="30px"></a></li>
+				<li><a href="https://www.instagram.com/tonistylz/" target="_blank"><img src="Instagram.png" width="30px" height="30px"></a></li>
+				<li><a href="https://www.youtube.com/user/ToniStylz" target="_blank"><img src="youtube.png" width="30px" height="30px"></a></li>
+				<li><a href="https://twitter.com/tonistylz" target="_blank"><img src="twitter-circle.png" width="30px" height="30px"></a></li>
+				<li><a href="http://pintrest.com/tonistylz" target="_blank"><img src="pinterest.png" width="30px" height="30px"></a></li>
+			</ul>
+		</div>
+		<div class="all-rights-reserved">&#169;2017 My Beauty Inc. All Rights Reserved.</div>
+		</footer>
+	</div>
+<script>
+function myMap() {
+  var myCenter = new google.maps.LatLng(41.128726, -81.607649);
+  var mapCanvas = document.getElementById("google-map");
+  var mapOptions = {center: myCenter, zoom: 15};
+  var map = new google.maps.Map(mapCanvas, mapOptions);
+  var marker = new google.maps.Marker({position:myCenter});
+  marker.setMap(map);
+}
+</script>
+
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAsRdPF2GYF8w3Duar3nfcJGKr731CsWNU&callback=myMap"></script>
+	<script>
+function openNav() {
+    document.getElementById("mySidenav").style.width = "90%";
+}
+
+function closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
+}
+</script>
+</body>
+</html>
