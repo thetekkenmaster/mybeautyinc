@@ -1,21 +1,85 @@
-html, body {
-	margin: 0px;
-	padding: 0px;
-	overflow-x: hidden;
+/*-----------General Styles-------------*/
+.desktop {
+	display: none;
+}
+.desktop-content {
+	display: none;
+}
+.desktop-footer {
+	display: none;
+}
+.footer {
+	display: none;
+}
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+	z-index: 2;
 }
 
-/* Styles for the header */
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 2em;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+.sidenav a:hover, .offcanvas a:focus{
+    color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 50px;
+    margin-left: 50px;
+}
+.top-section {
+	background-color: #fff;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	height: 10%;
+	border-bottom: 1px solid black;
+	z-index: 1;
+}
+.top-section h3 {
+	margin-top: 8%;
+	font-weight: bold;
+}
+.top-section .hamburger {
+	margin-top: 2%;
+}
+footer {
+	margin-top: 40px;
+	background-color: purple;
+}
+.bottom-icons ul {
+	text-align: center;
+	padding-top: 30px;
+	padding-left: 0;
+}
+.bottom-icons li {
+	display: inline-block;
+}
+.all-rights-reserved {
+	text-align: center;
+	color: #fff;
+}
+/*------------Styles For Header-----------*/
 .center {
 	margin: 0 auto;
 	width: 60%;
-}
-   header {
-	background-image: url('013_1.jpg');
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-position: 50% -32%;
-	/*background-attachment: fixed;*/
-	height: 100vh;
 }
 .top {
 	display: block;
@@ -108,11 +172,11 @@ nav ul li button a:focus {
 	font-family: 'Lobster', cursive;
 	color: #a60ca2;
 	position: relative;
-	top: 145px;
+	top: 0;
 	left: 6%
 }
 .specializing h1 {
-	font-size: 8em;
+	font-size: 8em !important;
 	letter-spacing: 11px;
 	text-shadow: 5px 5px 10px black;
 }
@@ -136,7 +200,499 @@ nav ul li button a:focus {
 .specializing ul li:last-child {
 	animation-delay: 2.5s;
 }
+/*-------------Home Page--------------*/
+.home-page {
+	background-image: url('');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+.home-page header h1 {
+	font-size: 2.5em;
+	text-align: center;
+	font-family: 'Lobster', cursive;
+	padding-left: 15px;
+	padding-right: 15px;
+	margin-top: 20%;
+}
+.home-page .img-1 {
+	background-image: url(photoshoot-2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 60vh;
+    width: 90%;
+    margin: 0 auto;
+}
+.home-page .img-1 button {
+	width: 50%;
+    height: 50px;
+    display: block;
+    margin: 0 auto;
+    position: relative;
+    top: 34%;
+    background-color: purple;
+    color: white;
+    font-size: 1em;
+    font-weight: 900;
+}
+.home-page .img-1 button a {
+	list-style: none;
+	color: #fff;
+}
+.home-page .img-1 button a:focus {
+	list-style: none;
+	text-decoration: none;
+}
+.home-page .img-1 h2 {
+	text-align: center;
+    position: relative;
+    top: 35%;
+	color: #fff;
+    font-size: 2em;
+    font-weight: bold;
+    text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 -1px 0 #000, 2px 0 0 #000;
+}
+.home-page .img-1 ul {
+	text-align: center;
+    padding: 0;
+    position: relative;
+    top: 35%;
+}
+.home-page .img-1 ul li {
+	font-size: 1.2em;
+	color: #fff;
+    display: block;
+    position: relative;
+    top: 38%;
+    font-weight: bold;
+    text-shadow: 1px 0 0 #000, 0 1px 0 #000, 0 -1px 0 #000, 2px 0 0 #000;
+}
+.home-page section {
+	width: 90%;
+    margin: 0 auto;
+}
+.home-page section h1 {
+	font-size: 2.5em;
+    text-align: center;
+    font-family: 'Lobster', cursive;
+    padding-top: 25px;
+    margin: 0;
+}
+.home-page section p {
+	font-size: 1.2em;
+    padding: 10px;
+}
+.home-page @media screen and (max-height: 450px) {
+  body.home-page .sidenav {padding-top: 15px;}
+  body.home-page .sidenav a {font-size: 18px;}
+}
+/*---------------About Us Page-----------------*/
+.about-page {
+	/*background-color: beige;*/
+	background-image: url('');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.about-page header h1 {
+	text-align: center;
+	font-family: 'Lobster', cursive;
+	margin-top: 20%;
+}
+.about-page .img-2 {
+	background-image: url('1.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	height: 48vh;
+}
+.about-page section h1 {
+	text-align: center;
+	font-family: 'Lobster', cursive;
+}
+.about-page section p {
+	font-size: 1.2em;
+    padding: 10px;
+}
+/*----------------Services Page----------------*/
+.services-page {
+	background-image: url('');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+.services-page header h1 {
+	text-align: center;
+	font-family: 'Lobster', cursive;
+	margin-top: 20%;
+}
+.services-page .img-3 {
+	background-image: url('services--element42.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 48vh;
+}
+.services-page .menu img {
+	display: block;
+	margin: 0 auto;
+}
+.services-page .menu h1 {
+	text-align: center;
+	font-family: 'Lobster', cursive;
+}
+.services-page .menu p {
+	font-size: 1.2em;
+    padding: 10px;
+}
+/* Style the buttons that are used to open and close the accordion panel */
+.services-page button.accordion {
+	color: #444;
+	cursor: pointer;
+	padding: 0;
+	width: 100%;
+	text-align: left;
+	border: 1px solid #fff;
+	outline: none;
+	transition: 0.4s;
+	/*text-align: center;*/
+}
+.services-page button.accordion h1 {
+	font-size: 2em;
+	text-align: center;
+	font-family: inherit;
+}
+.services-page .private-sessions h1 {
+	font-size: 2em;
+	text-align: center;
+}
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.services-page button.accordion.active, button.accordion:hover {
+	background-color: #ddd;
+}
+
+/* Style the accordion panel. Note: hidden by default */
+.services-page div.panel {
+	padding: 0 18px;
+	margin: 0;
+	background-color: white;
+	color: black;
+	font-weight: bold;
+	display: none;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+.services-page .shampoo-and-style, .cuts, .color, .mizani-relaxers, .mizani-butter-blend-relaxers, .styles-and-naturals, .treatments, .eyelashes-eyebrows, .weave {
+	width: 100%;
+	height: auto;
+	display: none;
+}
+/*---------------Gallery Page--------------*/
+.gallery-page {
+	background-image: url('');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.gallery-page header h1 {
+	font-size: 2.5em;
+	text-align: center;
+	font-family: 'Lobster', cursive;
+	padding-left: 15px;
+	padding-right: 15px;
+	margin-top: 20%;
+}
+.gallery-page .mySlides {
+	height: 380px;
+	margin-bottom: 30px;
+}
+.gallery-page .sidenav a {
+	font-size: 1.65em;
+}
+.gal-button {
+	display: block;
+	margin: 0 auto;
+	background-color: purple;
+	border-color: purple;
+	color: #fff;
+}
+.gal-button a:focus {
+	color: #fff;
+	list-style: none;
+	text-decoration: none;
+}
+.gallery-page .all-rights-reserved {
+	margin-top: 20px;
+	font-size: 14px;
+}
+/*--------------Contact Page---------------*/
+.contact-page {
+	background-image: url('');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.contact-page header {
+	margin-bottom: 20px;
+}
+.contact-page header h1 {
+	text-align: center;
+	font-family: 'Lobster', cursive;
+	margin-top: 20%;
+}
+.contact-page header img {
+	width: 90%;
+	display: block;
+	margin: 0 auto;
+}
+.contact-page #google-map {
+	width: 90%;
+	height: 350px;
+	display: block;
+	margin: 0 auto;
+}
+.contact-page p {
+	text-align: center;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+.contact-page .hours {
+	padding: 0;
+	width: 50%;
+	margin: 0 auto;
+}
+.contact-page ul li {
+	list-style: none;
+}
+/*-----------Media Queries---------------*/
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (orientation: landscape) {
+	.top-section {
+		height: 15%;
+	}
+	.top-section {
+		margin-top: 0;
+	}
+	.top-section h3 {
+		margin-top: 10px;
+		margin-left: 30px;
+	}
+	.home-page header .title {
+		margin-top: 65px;
+	}
+	.home-page .img-1 {
+		height: 138vh;
+		width: 75%;
+	}
+	.about-page header h1 {
+		margin-top: 65px;
+	}
+	.about-page header .img-2 {
+		height: 108vh;
+	}
+	.about-page section {
+		width: 90%;
+		display: block;
+		margin: 0 auto;
+	}
+	.services-page header h1 {
+		margin-top: 65px;
+	}
+	.services-page header .img-3 {
+		height: 108vh;
+	}
+	.services-page .menu p {
+		padding-left: 5%;
+		padding-right: 5%;
+	}
+	.gallery-page header h1 {
+		margin-top: 65px;
+	}
+	.contact-page header h1 {
+		margin-top: 65px;
+	}
+	
+}
+@media only screen and (min-device-width: 360px) and (max-device-width: 640px) and (orientation: landscape) {
+	.top-section {
+		height: 19%;
+	}
+	.top-section h3 {
+		padding-left: 70px;
+	}
+	.home-page header .title {
+		margin-top: 90px;
+	}
+	.home-page header .img-1 {
+		height: 200vh;
+		width: 80%;
+	}
+	.about-page header h1 {
+		margin-top: 90px;
+	}
+	.about-page header .img-2 {
+		height: 130vh;
+	}
+	.about-page section {
+		width: 90%;
+		display: block;
+		margin: 0 auto;
+	}
+	.services-page header h1 {
+		margin-top: 90px;
+	}
+	.services-page header .img-3 {
+		height: 130vh;
+	}
+	.services-page .menu p {
+		padding-left: 5%;
+		padding-right: 5%;
+	}
+	.gallery-page header h1 {
+		margin-top: 90px;
+	}
+	.contact-page header h1 {
+		margin-top: 90px;
+	}
+}
+
+@media only screen and (min-device-width: 412px) and (max-device-width: 737px) and (orientation: landscape) {
+	.top-section {
+		height: 18%;
+	}
+	.top-section h3 {
+		padding-left: 90px;
+	}
+	.home-page header .title {
+		margin-top: 12%;
+	}
+	.home-page header .img-1 {
+		height: 210vh;
+	}
+	.about-page header h1 {
+		margin-top: 12%;
+	}
+	.about-page header .img-2 {
+		height: 130vh;
+	}
+	.about-page section p {
+		width: 90%;
+		display: block;
+		margin: 0 auto;
+	}
+	.services-page header h1 {
+		margin-top: 12%;
+	}
+	.services-page header .img-3 {
+		height: 130vh;
+	}
+	.services-page .menu p {
+		padding-left: 5%;
+		padding-right: 5%;
+	}
+	.gallery-page header h1 {
+		margin-top: 12%;
+	}
+	.contact-page header h1 {
+		margin-top: 12%;
+	}
+}
+
+@media screen and (min-width: 960px) {
+	
+	
+	
+	/*---------General CSS----------*/
+	html {
+		overflow-x: hidden;
+	}
+	.desktop {
+		display: block;
+	}
+	.desktop-content {
+		display: block;
+	}
+	.about-page {
+		display: none;
+	}
+	.services-page {
+		display: none;
+	}
+	.gallery-page {
+		display: none;
+	}
+	.contact-page {
+		display: none;
+	}
+	.top-section {
+		display: none;
+	}
+	nav {
+		display: block;
+	}
+	/*footer .bottom-icons ul{
+		text-align: center;
+		padding-top: 100px;
+		padding-left: 0;
+		padding-bottom: 1%;
+	}*/
+	footer {
+		display: none;
+	}
+	.all-rights-reserved {
+		padding-bottom: 2%;
+	}
+	/*---------Home Page----------*/
+	.top-section .row {
+		display: none;
+	}
+	.home-page header {
+		background-image: url(013_1.jpg);
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-position: 50% -30%;
+		height: 100vh;
+	}
+	.home-page header .title {
+		color: transparent;
+	}
+	.home-page header .img-1 {
+		display: none;
+	}
+	/*.home-page header .img-1 {
+		width: 20%;
+	}
+	.home-page header .img-1 h2 {
+		display: none;
+	}
+	.home-page header .img-1 ul {
+		display: none;
+	}*/
+	.home-page section {
+		width: 70%;
+	}
+	.home-page section h1 {
+		color: rgb(166, 12, 162);
+	}
+	.home-page section p {
+		font-size: 1.5em;
+		font-weight: bold;
+	}
+	/*----------Full Desktop Css---------------------------------------------*/
+	
+
+/* Styles for the header */
+.center {
+	margin: 0 auto;
+	width: 60%;
+}
+   .desktop-footer {
+	   display: block;
+   }
+	.footer {
+		display: block;
+	}
 /* About Us*/
+#about-us {
+	width: 70%;
+}
 #about-us h1 {
 	color: #a60ca2;
 	font-family: 'Lobster', cursive;
@@ -149,10 +705,11 @@ nav ul li button a:focus {
 	font-weight: bold;
 	font-size: 1.5em;
 	padding-bottom: 20px;
+	width: 100%;
 }
 .center-about {
 	margin: 0 auto;
-	width: 44%;
+	width: 62%;
 }
 #about-us .row {
 	margin: 0;
@@ -171,6 +728,7 @@ nav ul li button a:focus {
 #services {
 	background-color: #f1f1f1;
 	padding-bottom: 25px;
+	width: 100%;
 }
 .services-and-prices {
 	width: 70%;
@@ -186,7 +744,7 @@ nav ul li button a:focus {
 }
 .services-and-prices p {
 	padding-bottom: 20px;
-	font-size: 1.5em;
+	font-size: 1.5em !important;
 	font-weight: bold;
 }
 .row-one, .row-two, .row-three {
@@ -201,6 +759,7 @@ nav ul li button a:focus {
 	border: 1px solid black;
 	padding-left: 20px;
 	padding-right: 20px;
+	display: block;
 }
 #color p {
 	font-size: 1em;
@@ -213,6 +772,7 @@ nav ul li button a:focus {
 	border: 1px solid black;
 	padding-left: 20px;
 	padding-right: 20px;
+	display: block;
 }
 .treatments, .eyelashes-eyebrows, .weave {
 	width: 33%;
@@ -222,11 +782,15 @@ nav ul li button a:focus {
 	border: 1px solid black;
 	padding-left: 20px;
 	padding-right: 20px;
+	display: block;
 }
 .row-one, .color, .mizani-butter-blend-relaxers p {
 	font-size: 1em !important;
 }
 /* Our Work*/
+#our-work {
+	width: 100%;
+}
 #our-work h1 {
 	color: #a60ca2;
 	font-family: 'Lobster', cursive;
@@ -270,6 +834,7 @@ div.desc {
 }
 /* Contact Us */
 #contact-us {
+	width: 100%;
 	height: auto;
 	background-color: #f1f1f1;
 }
@@ -330,39 +895,40 @@ form button {
 	font-weight: bold;
 }
 /* Footer */
-footer {
+.desktop-footer {
+	margin-top: 0;
 	background-color: #000;
 	height: 300px;
 }
-footer h1 {
+.desktop-footer h1 {
 	text-align: center;
     color: #fff;
     font-family: 'Lobster', cursive;
     padding-top: 50px;
     margin-top: 0;
 }
-footer ul {
+.desktop-footer ul {
 	text-align: center;
 	padding-top: 25px;
 }
-footer ul li {
+.desktop-footer ul li {
 	display: inline-block;
     color: #fff;
     border-right: 1px solid;
     padding-left: 20px;
     padding-right: 20px;
 }
-footer ul li a {
+.desktop-footer ul li a {
 	color: #fff;
 }
-footer ul li a:hover {
+.desktop-footer ul li a:hover {
 	color: #ccc;
 	text-decoration: none;
 }
-footer ul li a:focus {
+.desktop-footer ul li a:focus {
 	text-decoration: none;
 }
-footer ul li:last-child {
+.desktop-footer ul li:last-child {
 	border: none;
 }
 .footer {
@@ -377,4 +943,5 @@ footer ul li:last-child {
 }
 .accordion, .panel {
 	display: none;
+}
 }
