@@ -11,6 +11,9 @@
 .footer {
 	display: none;
 }
+header h1 {
+	font-weight: bold;
+}
 .sidenav {
     height: 100%;
     width: 0;
@@ -626,6 +629,9 @@ nav ul li button a:focus {
 	}
 	nav {
 		display: block;
+	}
+	.home-page header .title {
+		display: none;
 	}
 	/*footer .bottom-icons ul{
 		text-align: center;
