@@ -662,24 +662,19 @@ nav ul li button a:focus {
 	.home-page header .img-1 {
 		display: none;
 	}
-	/*.home-page header .img-1 {
-		width: 20%;
-	}
-	.home-page header .img-1 h2 {
-		display: none;
-	}
-	.home-page header .img-1 ul {
-		display: none;
-	}*/
-	.home-page section {
-		width: 70%;
+	.home-page .desk {
+		/*width: 70%;*/
+		width: 100%;
+		background-color: #f1f1f1;
 	}
 	.home-page section h1 {
 		color: rgb(166, 12, 162);
 	}
-	.home-page section p {
+	.home-page .desk p {
 		font-size: 1.5em;
 		font-weight: bold;
+		padding-left: 15%;
+		padding-right: 15%;
 	}
 	/*----------Full Desktop Css---------------------------------------------*/
 	
