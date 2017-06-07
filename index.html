@@ -7,17 +7,33 @@
 	<!-- Latest compiled and minified CSS -->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 	<link rel="stylesheet" href="animate.css">
-	<link href="mobile.css" type="text/css" rel="stylesheet" media="screen and (min-width: 300px) and (max-width: 767px)" />
-	<link href="style.css" type="text/css" rel="stylesheet" media="screen and (min-width: 1024px)">
+	<link href="style.css" type="text/css" rel="stylesheet">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	<link href="https://fonts.googleapis.com/css?family=Lobster|Roboto" rel="stylesheet">
 	<link rel="icon" type="image/jpg" href="too-small.jpg">
 </head>
-<body>
+<body class="home-page">
 	<div class="fluid-container">
-		<header class="desktop animated fadeIn">
+		<header>
+			<div id="mySidenav" class="sidenav">
+			  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+			  <a href="index.html">Home</a>
+			  <a href="about.html">About</a>
+			  <a href="services.html">Services</a>
+			  <a href="gallery.html">Gallery</a>
+			  <a href="https://www.genbook.com/bookings/slot/reservation/30011866">Appointment</a>
+			  <a href="contact.html">Contact</a>
+			</div>
+			<div class="top-section">
+			<div class="row">
+			<div class="col-xs-3 hamburger"><span style="font-size:30px; border: none; cursor:pointer" onclick="openNav()">&#9776; </span></div>
+			<div class="col-xs-9"><h3>My <span style="font-style: italic; color: purple;">Beauty</span> Inc</h3></div>
+			</div>
+			</div>		
+		
+		<div class="desktop animated fadeIn">
 			<nav>
-				<p><i class="fa fa-envelope"></i>info@mybeautyinc.com</p><p><i class="fa fa-phone"></i><span class="top-css">Call Us</span> (330)434-8664</p><!--<span class="top"><i class="fa fa-envelope"></i> <p>info@mybeautyinc.com</p> <span class="top-css"><i class="fa fa-phone"></i> <p>Call us</span>:(330)434-8664</p>-->
+				<p><i class="fa fa-envelope"></i>info@mybeautyinc.com</p><p><i class="fa fa-phone"></i><span class="top-css">Call Us</span> (330)434-8664</p>
 				<hr>
 				<ul>
 				<li class="logo"><a href="index.html"><span class="beauty">Beauty</span> Inc</a></li>
@@ -39,11 +55,28 @@
 				<li class="5th animated slideInLeft">And Healthy Hair Care</li>
 			</ul>
 			</div>
+		</div>	
+				
+			<h1 class="title">Beauty Inc-Urban Hair Retreat</h1>
+			<div class="img-1">
+				<h2>Specializing In</h2>
+				<ul>
+					<li>NATURAL HAIR</li>
+					<li>RELAXED HAIR</li>
+					<li>SEW INS</li>
+					<li>PRECISION CUTS</li>
+					<li>AND HEALTHY HAIR CARE</li>
+				</ul>
+				<button type="button"><a href="https://www.genbook.com/bookings/slot/reservation/30011866" target="_blank">Book Appointment</a></button>
+				<!--<button>BOOK NOW</button>-->
+			</div>
 		</header>
+		<section>
+			<h1>Welcome to Beauty Inc-Urban Hair Retreat- The beauty salon Akron Ohio women trust.</h1>
+			<p>Women love to look their best. It makes them feel good about themselves and gives an added boost to their confidence knowing that they look great. This is why it is very important to find a hair and beauty salon that truly looks after your needs. If you're in Akron, Cleveland, Canton, or other surrounding cities in Ohio, and are looking for a great place to look good, feel good, and come out confident that you're looking your best, you couldn't have come to a better place!<br><br> Here at Beauty Inc-Urban Hair Retreat, we are committed to your total satisfaction. We know how important it is for you to look great that's why we take our business very seriously. When you walk through our doors, you'll immediately know you made the right decision to come to us for your beauty needs. Widely recognized as the salon that delivers the best hair in African American hair services.<br><br> We offer relaxers, hair color, natural hair care, sew ins, precision haircuts and other services designed to meet the demanding needs of the modern Ohio woman and exceed their expectations by delivering outstanding results!<br><br> Here at Beauty Inc-Urban Hair Retreat, we take pride in the high level of creativity and attention to detail we deliver with each client we serve. To us, it is not enough to do a good job in making a client look good - we work to deliver the best results that allow you to look your best and feel truly great about yourself.<br><br>Book your appointment online or give us a call today to experience what makes Beauty Inc-Urban Hair Retreat one of the most preferred hair salons in Akron Ohio.</p>
+		</section>
 		
-		
-		
-		
+		<div class="desktop-content">
 		<section id="about-us"><h1>About Us</h1><p class="center">Established in 2006, Beauty Inc-Urban Hair Retreat quickly built a stellar reputation for being the premier beauty salon for African American hair in Akron Ohio. We know how important it is for women to look and feel their best and we are committed to providing services that deliver the best results with each and every client we serve; We have trained long and hard in order to come up with exceptional results.<br><br>Ask any of our many customers and they'll tell you that they come to us on a regular basis because they love the feeling of security they get every time they walk through our doors. Our customers know that no matter how stressed or tired-looking they may have been when they came in, that they'll leave out looking and feeling fabulous!</p>
 		<div class="row">
 		<div class="center-about">
@@ -52,10 +85,7 @@
 		</div>
 		</div>
 		<img class="separate" src="tina-website.jpg" width="400px" height="500px" alt="">
-		</section>
-		
-		
-		
+		</section>	
 		
 		<section id="services">
 		<div class="services-and-prices"><h1 class="service-h1">Our Services</h1>
@@ -197,7 +227,7 @@
 			<li>Twistie Locs.......................<span class="theme-color">$65</span></li>
 			<li>Double Strand Twist...........<span class="theme-color">$65</span></li>
 			<li>Flat twist set......................<span class="theme-color">$55</span></li>
-			<li>Press N Curl.......................<span class="theme-color">$55</span> <br>Long Hair..........................<span class="theme-color">$75</li>
+			<li>Press N Curl.......................<span class="theme-color">$55</span> <br>Long Hair..........................<span class="theme-color">$75</li></span>
 		</ul>
 		<ul>Add to any natural hair service:
 			<li>Trim................................<span class="theme-color">$10</span></li>
@@ -217,7 +247,7 @@
 			<li>Twistie Locs.......................<span class="theme-color">$65</span></li>
 			<li>Double Strand Twist...........<span class="theme-color">$65</span></li>
 			<li>Flat twist set......................<span class="theme-color">$55</span></li>
-			<li>Press N Curl.......................<span class="theme-color">$55</span> <br>Long Hair..........................<span class="theme-color">$75</li>
+			<li>Press N Curl.......................<span class="theme-color">$55</span> <br>Long Hair..........................<span class="theme-color">$75</li></span>
 		</ul>
 		<ul>Add to any natural hair service:
 			<li>Trim................................<span class="theme-color">$10</span></li>
@@ -347,11 +377,7 @@
 		</div>
 		<div class="private-sessions"><h1>Private Sessions Are Available(inquire about cost)</h1></div>
 		</div>
-		</section>
-		
-		
-		
-		
+		</section>	
 		
 		<section id="our-work">
 		<h1>Gallery</h1>
@@ -539,8 +565,8 @@
 		</div>
 
 		<div class="gallery">
-			<a target="_blank" href="003.JPG">
-			<img title="Short cut" src="003.JPG" alt="Forest">
+			<a target="_blank" href="01.png">
+			<img title="Short cut" src="01.png" alt="Forest">
 			</a>
 		</div>
 
@@ -591,9 +617,24 @@
 		</form>
 		</div>
 		</section>
+		</div>
 		
 		<footer>
-		<h1>Beautymakeup</h1>
+		<div class="bottom-icons">
+			<ul>
+				<li><a href="https://www.facebook.com/Iamtonistylz/" target="_blank"><img src="facebook-circle.png" width="30px" height="30px"></a></li>
+				<li><a href="https://www.instagram.com/tonistylz/" target="_blank"><img src="Instagram.png" width="30px" height="30px"></a></li>
+				<li><a href="https://www.youtube.com/user/ToniStylz" target="_blank"><img src="youtube.png" width="30px" height="30px"></a></li>
+				<li><a href="https://twitter.com/tonistylz" target="_blank"><img src="twitter-circle.png" width="30px" height="30px"></a></li>
+				<li><a href="http://pintrest.com/tonistylz" target="_blank"><img src="pinterest.png" width="30px" height="30px"></a></li>
+			</ul>
+		</div>
+		<div class="all-rights-reserved">&#169;2017 My Beauty Inc. All Rights Reserved.</div>
+		</footer>
+		
+		
+		<footer class="desktop-footer">
+		<h1>Beauty Inc</h1>
 		<ul>
 			<li><a href="index.html">Home</a></li>
 			<li><a href="#about-us">About</a></li>
@@ -611,29 +652,20 @@
 		</footer>
 		<div>
 			<div class="footer"><p>Copyrights &#169; 2017 by Beauty Inc. All Rights Reserved.</p></div>
-		</div>
+		</div>		
+		
 	</div>
 	<!-- Latest compiled and minified JavaScript -->
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 <script>
-var acc = document.getElementsByClassName("accordion");
-var i;
+function openNav() {
+    document.getElementById("mySidenav").style.width = "90%";
+}
 
-for (i = 0; i < acc.length; i++) {
-    acc[i].onclick = function(){
-        /* Toggle between adding and removing the "active" class,
-        to highlight the button that controls the panel */
-        this.classList.toggle("active");
-
-        /* Toggle between hiding and showing the active panel */
-        var panel = this.nextElementSibling;
-        if (panel.style.display === "block") {
-            panel.style.display = "none";
-        } else {
-            panel.style.display = "block";
-        }
-    }
+function closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
 }
 </script>
+
 </body>
 </html>
